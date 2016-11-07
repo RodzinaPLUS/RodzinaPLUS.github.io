@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: RodzinaPLUS
 email: your-email@domain.com
-description: > Oferta programu RodzinaPLUS
+description: "Oferta programu RodzinaPLUS"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
