@@ -4,3 +4,14 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+<nav class="pink">
+   <div class="nav-wrapper">
+     <a href="#" class="brand-logo">{{site.title}}</a>
+     <ul id="nav-mobile" class="right hide-on-med-and-down">
+{%for page in site.pages%}
+      <li><a href="{{page.url}}">{{page.title}}</a></li>
+{%endfor%}
+
+     </ul>
+   </div>
+ </nav>
